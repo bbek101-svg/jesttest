@@ -8,6 +8,7 @@ This is meant to be a repository for my gateway into test driven development in 
 ## Run the Following Commands: 
 
 npm install --save-dev jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
+<br />
 yarn add -D jest-environment-jsdom
  
  
