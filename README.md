@@ -1,18 +1,18 @@
 
-## Test Driven Development
+# Test Driven Development
 This is meant to be a repository for my gateway into test driven development in javascript/React or Next.
 
 
-## How to Setup Jest in Next.js
+# How to Setup Jest in Next.js
 
-# Run the Following Commands: 
+## Run the Following Commands: 
 
 npm install --save-dev jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
 yarn add -D jest-environment-jsdom
  
  
  
-# In the Root Directory create a jest.config.js file
+## In the Root Directory create a jest.config.js file
 
 // jest.config.js
 const nextJest = require('next/jest')
@@ -37,18 +37,18 @@ module.exports = createJestConfig(customJestConfig)
 
 
 
-# Paste the above in the config file and then save
+## Paste the above in the config file and then save
 
 
 
-# In package.json add the following to the scripts
+## In package.json add the following to the scripts
 
 "test": "jest --watch"
 
 
 
-# Create a folder named __tests__ and add tests file in that
+## Create a folder named __tests__ and add tests file in that
 -- eg. Counter.test.js
 
 
-# run the test command with yarn test
+## run the test command with yarn test
