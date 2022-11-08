@@ -36,7 +36,9 @@ function Counter() {
       <div className="flex flex-col items-center justify-center p-24 rounded-xl border-4 border-[#00ff87]">
         <div className="flex flex-row mb-8">
           <h1>Counter: </h1>
-          <h1 className="ml-2">{count}</h1>
+          <h1 className="ml-2" data-testid="counter">
+            {count}
+          </h1>
         </div>
 
         <div className="flex flex-row">
