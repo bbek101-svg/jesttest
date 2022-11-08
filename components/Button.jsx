@@ -4,6 +4,7 @@ function Button({ Sign, onClick }) {
       <button
         className="flex justify-center items-center py-4 px-8 rounded-lg cursor-pointer bg-[#00FF87] text-black"
         onClick={onClick}
+        name={Sign}
       >
         {Sign}
       </button>
